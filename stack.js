@@ -22,11 +22,11 @@ class Stack {
     // returns the top most item from the stack but removes nothing
     peek() {
         let top = this.items[this.items.length - 1]
-        console.log(999)
+
         return top
     }
 
-    // checks if the stack is empty and returns a boolean value true if empty and vice-versa
+    // checks if the stack is empty and returns a boolean value: true if empty and vice-versa
     is_empty() {
         if (this.items.length === 0) {
             return true;
@@ -36,9 +36,9 @@ class Stack {
     }
 }
 
-let s = new Stack()
-s.push(13)
-s.push(true)
-s.push("Ron")
-console.log(s.is_empty())
-console.log(s.peek())
+// let s = new Stack()
+// s.push(13)
+// s.push(true)
+// s.push("Ron")
+// console.log(s.is_empty())
+// console.log(s.peek())
